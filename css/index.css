@@ -1,10 +1,23 @@
 nav {
     overflow: hidden;
     float: right;
+    position: fixed;
+    /* Фиксированное положение */
+    right: 0;
+    top: 0;
+    /* Левый нижний угол */
+    padding: 10px;
+    /* Поля вокруг текста */
+    background: #0D1B1E;
+    /* Цвет фона */
+    color: #EBEBED;
+    /* Цвет текста */
+    width: 100%;
+    /* Ширина слоя */
 }
 
 nav li {
-    float: left;
+    float: right;
     list-style: none;
 }
 
@@ -13,7 +26,7 @@ nav li a {
     font-weight: bold;
     text-decoration: none;
     padding: 0 20px;
-    color: #143567;
+    color: #CEDFD9;
     text-shadow: 0 1px 0 white;
 }
 
@@ -22,9 +35,8 @@ nav li a:hover {
 }
 
 header {
-    height: 70px;
-    margin: 1px 1px 1px 1px;
-    padding: 20px 1px 1px 1px;
+    height: 50px;
+    
 }
 
 body {
@@ -95,9 +107,9 @@ input[type=submit] {
     /* Левый нижний угол */
     padding: 10px;
     /* Поля вокруг текста */
-    background: black;
+    background: #0D1B1E;
     /* Цвет фона */
-    color: grey;
+    color: #EBEBED;
     /* Цвет текста */
     width: 100%;
     /* Ширина слоя */
