@@ -2,18 +2,12 @@ nav {
     overflow: hidden;
     float: right;
     position: fixed;
-    /* Фиксированное положение */
     right: 0;
     top: 0;
-    /* Левый нижний угол */
     padding: 10px;
-    /* Поля вокруг текста */
     background: #0D1B1E;
-    /* Цвет фона */
     color: #EBEBED;
-    /* Цвет текста */
     width: 100%;
-    /* Ширина слоя */
 }
 
 nav li {
@@ -36,7 +30,6 @@ nav li a:hover {
 
 header {
     height: 50px;
-    
 }
 
 body {
@@ -67,19 +60,12 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 1px solid #ccc;
-    /* Gray border */
     border-radius: 4px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
     resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
@@ -101,16 +87,10 @@ input[type=submit] {
 
 #footer {
     position: fixed;
-    /* Фиксированное положение */
     left: 0;
     bottom: 0;
-    /* Левый нижний угол */
     padding: 10px;
-    /* Поля вокруг текста */
     background: #0D1B1E;
-    /* Цвет фона */
     color: #EBEBED;
-    /* Цвет текста */
     width: 100%;
-    /* Ширина слоя */
 }
