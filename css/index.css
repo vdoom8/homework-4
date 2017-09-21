@@ -1,61 +1,76 @@
 nav {
-	overflow: hidden;
-	float: right;
+    overflow: hidden;
+    float: right;
 }
 
 nav li {
-	float:left;
-	list-style: none;
+    float: left;
+    list-style: none;
 }
+
 nav li a {
-	font-size: 20px;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 0 20px;
-	color: #143567;
-	text-shadow: 0 1px 0 white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #143567;
+    text-shadow: 0 1px 0 white;
 }
 
 nav li a:hover {
-	color: #a45f93;
+    color: #a45f93;
 }
 
-header{
-	height:70px;
-	margin: 1px 1px 1px 1px;
-	padding: 20px 1px 1px 1px;
+header {
+    height: 70px;
+    margin: 1px 1px 1px 1px;
+    padding: 20px 1px 1px 1px;
 }
 
 body {
-        background-color: #cccccc;
+    background-color: #cccccc;
 }
+
 h1 {
     text-align: center;
     font-size: 30px;
 }
 
 .lefting {
-    margin: 7px 7px 7px 0; 
+    margin: 7px 7px 7px 0;
     height: 50%;
     width: 50%;
     float: left;
 }
+
 p {
-    text-align: center; 
+    text-align: center;
 }
+
 h2 {
-	text-align: center;
+    text-align: center;
 }
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
 }
+
 input[type=submit] {
     background-color: #202030;
     color: white;
@@ -65,16 +80,25 @@ input[type=submit] {
     text-align: center;
     cursor: pointer;
 }
+
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
+
 #footer {
-    position: fixed; /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 10px; /* Поля вокруг текста */
-    background: black; /* Цвет фона */
-    color: grey; /* Цвет текста */
-    width: 100%; /* Ширина слоя */
-   }
+    position: fixed;
+    /* Фиксированное положение */
+    left: 0;
+    bottom: 0;
+    /* Левый нижний угол */
+    padding: 10px;
+    /* Поля вокруг текста */
+    background: black;
+    /* Цвет фона */
+    color: grey;
+    /* Цвет текста */
+    width: 100%;
+    /* Ширина слоя */
+}
